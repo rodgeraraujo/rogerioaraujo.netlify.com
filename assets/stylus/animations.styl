@@ -1,0 +1,59 @@
+.layout
+  &-enter-active,
+  &-leave-active,
+  &-leave-to
+    transition opacity .5s ease-in-out, transform .5s ease-in-out
+    transform translate3d(0, 0, 0)
+    backface-visibility: hidden
+    will-change: opacity
+    opacity: 1
+
+  &-enter,
+  &-leave-to,
+  &-leave-active
+    opacity 0
+    transform translate3d(0, 3%, 0)
+
+.animation
+  animation-duration 1.4s
+  animation-timing-function cubic-bezier(0.250, 0.460, 0.450, 0.940)
+  animation-fill-mode both
+  &--fade-in
+    animation-name fadeIn
+  &--slide-in-top
+    animation-name slideInTop
+  &--tracking-in-expand
+    animation-name trackingInExpand
+  &--fade-in-bottom
+    animation-name fadeInBottom
+
+@keyframes fadeIn
+  0%
+    opacity 0
+  100%
+    opacity 1
+
+@keyframes slideInTop
+  0%
+    transform translateY(-100px)
+    opacity 0
+  100%
+    transform translateY(0)
+    opacity 1
+
+@keyframes trackingInExpand
+  0%
+    letter-spacing -0.5em
+    opacity 0
+  40%
+    opacity 0.6
+  100%
+    opacity 1
+
+@keyframes fadeInBottom
+  0%
+    transform translateY(50px)
+    opacity 0
+  100%
+    transform translateY(0)
+    opacity 1

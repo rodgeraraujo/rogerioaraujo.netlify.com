@@ -39,7 +39,6 @@ module.exports = {
   modules: [
     // ['nuxt-i18n', I18N],
     ['@nuxtjs/axios', AXIOS],
-    ['@nuxtjs/google-analytics'],
     '@nuxtjs/sitemap',
     '@nuxtjs/pwa'
   ],

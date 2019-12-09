@@ -14,7 +14,7 @@ export const env = {
   baseDescription: description,
   baseKeywords: keywords,
   isProduction,
-  imageDefault
+  // imageDefault
 }
 
 export const I18N = {

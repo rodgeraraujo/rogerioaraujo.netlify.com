@@ -1,7 +1,7 @@
 <template>
   <c-hero>
     <c-meta-tags bodyClass="page-home hasHero" :title="title" :description="description" :url="url"/>
-    <!-- <c-avatar/> -->
+    <c-avatar/>
     <h2 class="Home__title">
       <span>Hello! I'm a full stack </span> <strong>{ web developer}.</strong>
       <small>
@@ -23,7 +23,7 @@ export default {
   name: 'Home',
   data () {
     return {
-      title: `Hello! I'm a full-stack { web developer }!`,
+      title: 'Hello! I'm a full-stack { web developer }!',
       description: `${process.env.baseDescription}`,
       url: `${process.env.baseUrl}`
     }

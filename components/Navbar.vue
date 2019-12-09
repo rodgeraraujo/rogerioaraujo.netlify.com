@@ -4,7 +4,7 @@
       <li class="Navbar__item">
         <nuxt-link class="Navbar__link" to="/" title="Página inicial">home</nuxt-link>
       </li>
-      <li class="Navbar__item">
+      <!-- <li class="Navbar__item">
         <nuxt-link class="Navbar__link" to="/about" title="Sobre min">sobre mim</nuxt-link>
       </li>
       <li class="Navbar__item">
@@ -12,21 +12,13 @@
       </li>
       <li class="Navbar__item">
         <nuxt-link class="Navbar__link" to="/contact" title="Mande uma mensagem">contato</nuxt-link>
-      </li>
-      <li class="Navbar__item">
-        <a class="Navbar__link" href="https://blog.nandomoreira.me/" target="_blank" title="Meus artigos">
-          blog <c-target-icon/>
-        </a>
-      </li>
+      </li> -->
     </ul>
   </nav>
 </template>
 
 <script>
 export default {
-  components: {
-    CTargetIcon: () => import('~/components/TargetIcon')
-  }
 }
 </script>
 

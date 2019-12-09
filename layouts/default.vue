@@ -1,5 +1,6 @@
 <template>
   <main class="default">
+    <c-header/>
     <transition name="layout" mode="out-in">
       <nuxt></nuxt>
     </transition>
@@ -8,7 +9,10 @@
 
 <script>
 export default {
-  name: 'defaultLayout'
+  name: 'defaultLayout',
+  components: {
+    CHeader: () => import('~/components/Header')
+  }
 }
 </script>
 

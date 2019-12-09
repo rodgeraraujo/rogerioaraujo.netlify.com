@@ -18,11 +18,12 @@ export default {
 .Header
   text-align center
   width 100%
+  height 35px
   display block
   background-color #fff
   // box-shadow 0 2px 3px 0 rgba(#000, .16)
   border-bottom 1px solid rgba(#000, .125)
-  padding .9375rem /* 15/16 */
+  padding .5375rem /* 15/16 */
   position relative
   z-index 100
   +above($tablet)

@@ -23,7 +23,7 @@ export default {
   name: 'Home',
   data () {
     return {
-      title: 'Hello! I'm a full-stack { web developer }!',
+      title: `Hello! I'm a full-stack { web developer }!`,
       description: `${process.env.baseDescription}`,
       url: `${process.env.baseUrl}`
     }

@@ -4,12 +4,10 @@
       <li class="Navbar__item">
         <nuxt-link class="Navbar__link" to="/" title="Página inicial">home</nuxt-link>
       </li>
-      <!-- <li class="Navbar__item">
-        <nuxt-link class="Navbar__link" to="/about" title="Sobre min">sobre mim</nuxt-link>
-      </li>
       <li class="Navbar__item">
-        <nuxt-link class="Navbar__link" to="/portfolio" title="Veja os projetos feitos por mim">portfolio</nuxt-link>
+        <nuxt-link class="Navbar__link" to="/portfolio" title="Sobre min">portfolio</nuxt-link>
       </li>
+      <!--
       <li class="Navbar__item">
         <nuxt-link class="Navbar__link" to="/contact" title="Mande uma mensagem">contato</nuxt-link>
       </li> -->

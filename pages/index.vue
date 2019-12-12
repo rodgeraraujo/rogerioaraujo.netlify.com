@@ -9,7 +9,7 @@
       </small>
     </h2>
     <div class="Home__buttons">
-      <nuxt-link to="https://github.com/rodgeraraujo" class="Home__button button button--secondary">Portfolio</nuxt-link>
+      <nuxt-link to="/portfolio" class="Home__button button button--secondary">Portfolio</nuxt-link>
       <!-- <nuxt-link to="/contact" class="Home__button button button--primary">Contate-me!</nuxt-link> -->
     </div>
     <div class="Home__social">

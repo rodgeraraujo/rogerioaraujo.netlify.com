@@ -13,7 +13,7 @@ export const env = {
   baseTitle,
   baseDescription: description,
   baseKeywords: keywords,
-  isProduction,
+  isProduction
   // imageDefault
 }
 
@@ -76,7 +76,6 @@ export const layoutTransition = {
   name: 'layout',
   mode: 'out-in'
 }
-
 
 export const GA = {
   id: isProduction ? 'UA-125092358-1' : 'UA-00000000-1',
